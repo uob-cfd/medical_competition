@@ -25,7 +25,7 @@ test = {
         },
         {
           'code': r"""
-          >>> np.round(sim_p_d_plus_given_t_plus, 1) == 0.1
+          >>> 0.054 < sim_p_d_plus_given_t_plus < 0.14
           True
           """,
           'hidden': False,
